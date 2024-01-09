@@ -1,0 +1,24 @@
+body {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+  }
+  
+  .centrar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 9%;
+  }
+  
+  .imagen {
+    background-image: url(/Classificador-de-Nivel-de-Heroi/img/award.png);
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+  }
+  
